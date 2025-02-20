@@ -12,11 +12,11 @@ abstract class CoffeeDecorator implements Coffee {
 
     @Override
     public double getCost() {
-        return 0;
+        return coffee.getCost();
     }
 
     @Override
     public String getDescription() {
-        return "";
+        return coffee.getDescription();
     }
 }

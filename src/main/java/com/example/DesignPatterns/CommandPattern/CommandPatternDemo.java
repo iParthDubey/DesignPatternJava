@@ -4,6 +4,7 @@ import com.example.DesignPatterns.CommandPattern.Reciver.Editor;
 
 public class CommandPatternDemo {
     public static void main(String[] args) {
+
         Editor editor = new Editor();
         Application app = new Application(editor);
 

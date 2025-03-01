@@ -1,0 +1,9 @@
+The Command Pattern is a behavioral design pattern that
+encapsulates requests as objects. This allows the sender (Invoker) and receiver (actual logic) to be decoupled.
+
+Key Components :
+    1. Command (Interface/Base Class) → Defines the structure of commands.
+    2. Concrete Commands → Implement different operations (Copy, Cut, Paste, Undo).
+    3. Receiver (Editor) → Contains the actual business logic (text manipulation).
+    4. Invoker (Application) → Executes commands and manages the undo stack.
+    5. Client (Main Method) → Initiates the commands.
